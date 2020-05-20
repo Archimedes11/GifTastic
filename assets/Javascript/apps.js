@@ -1,22 +1,9 @@
-//Web page displays buttons.
-//this is an array of topics.
-//Buttons are labeled.
-//When user presses a button -- 10 still images are displayed with their ratings.
-//Program selects only 10 images from url.
-//GIPHY API has image template forms to use -- review.
-//When user clicks on an image - the image is animated.  When user clicks on image again, it is still.
-//Need to add coding default to keep the page from automatically refreshing, until user refreshes manually.
-//Bonus: add a form that allows user to create a button topic.
-//user types into the input form - "dogs"
-//button "dogs" are added (push to the array of topics)
-//there is a submit button to the form
-//check with bootstrap to add this form -- vertical menu on the right
+
 $(document).ready()
 //topics array
-var topics = ["cats", "horses", "pigs", "Paris", "asian food", "James Cordon", "007", "exercise",
-  "dog walking", "boxer dog", "bullmastiff", "Hawaii", "The Office", "Andy Griffith", "Hawaii five-O",
-  "Magnum PI", "Outlander", "hawaiian food", "hula", "Star Trek", "Star Wars", "Grand Canyon",
-  "Colorado", "Lipsync Battle", "Forrest Gump", "clydesdales", "sleeping dogs", "giraffes"];
+var topics = ["Fleetwood Mac", "Freddie Mercury", "AC/DC", "Black Sabbath", "Bob Dylan", "The Beatles", "Led Zeppelin", "Mozart",
+  "The Rolling Stones", "Frank Sinatra", "Jimi Henxrix", "Wu-Tang", "Johnny Cash", "The Grateful Dead", "Tom Petty",
+  "The Misfits", "Pearl Jam", "Nirvana", "Elton John", "Jim Morrison"];
 //api key
 var key = "r8vfoFb9SvSLxNCssr7kk6NnXjK4RuZf";
 //still and animate
