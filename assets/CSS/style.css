@@ -1,0 +1,59 @@
+@font-face {
+    font-family: MusicFont;
+    src: url(../Fonts/Ldmusic_.ttf);
+  }
+
+  h1
+{
+      font-family: MusicFont;
+      margin-top: 5px;
+      font-size: 5.5rem;
+      text-align: center;
+      font-weight: 500;
+      color: white;
+}
+
+body
+{
+    background-image: url(../Images/MusicBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.card
+{
+    border: none;
+}
+
+.blockquote-footer
+{
+    color:white;
+}
+
+label
+{
+    color:white;
+}
+
+h1
+{
+    transform:translateY(-50%);
+    background: linear-gradient(to right,black, white, black, white, grey);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: MusicFont;
+    margin-top: 60px;
+    font-size: 8.5rem;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+#head
+{
+    height: auto;
+}
+
+
