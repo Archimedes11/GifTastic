@@ -53,7 +53,7 @@ h1
 
 #head
 {
-    height: auto;
+    max-height: 127px;
 }
 
 
